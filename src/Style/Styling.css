@@ -1,0 +1,62 @@
+.addIcon {
+  width: 5vh;
+  position: sticky;
+  top: 85vh;
+  left: 92vw;
+  z-index: 1;
+  border-radius: 30%;
+  border-width: 1px;
+  background-color: bisque;
+  padding: 20px;
+  box-sizing: content-box;
+}
+
+.alert{
+  z-index:-1;
+  position: absolute;
+  top:30px;
+  width:97vw;
+}
+
+.flexbox {
+  width: 95vw;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.blogPreview {
+  width: auto;
+  height: fit-content;
+  max-width: 450px;
+  min-width: 200px;
+  min-height: 200px;
+  max-height: 400px;
+  padding: 10px;
+}
+
+.button{
+  padding: 10px;
+  border-radius: 20%;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.center {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+}
+
+.dTime {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: small;
+}
+.readMore {
+    text-align: end;
+}
